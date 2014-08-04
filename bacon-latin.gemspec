@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Bacon::Latin::VERSION
   spec.authors       = ["Timon Vonk"]
   spec.email         = ["timonv@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = %q{More meat makes a better party}
+  spec.description   = %q{A variant to pig latin where we add meat to every morph}
+  spec.homepage      = "https://github.com/timonv/bacon-latin"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
