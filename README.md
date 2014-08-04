@@ -1,6 +1,10 @@
 # Bacon::Latin
 
-TODO: Write a gem description
+A substitute for pig latin that adds more meat.
+
+## Purists and haters
+
+I simplified the algorithm a bit. I know. Also, it's hard to speak bacon-latin, as you'd need to memorize the meat list. But given you care, you probably can't cook anyway, so good on you.
 
 ## Installation
 
@@ -18,7 +22,11 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+BaconLatin.new("pig").to_bacon # =>  'igp-baconay'
+```
+
+We iterate through a list of meat to get the morph in, feel free to make a PR and add more meat.
 
 ## Contributing
 
